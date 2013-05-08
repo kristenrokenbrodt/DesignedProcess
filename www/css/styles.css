@@ -1,0 +1,874 @@
+@font-face {
+	font-family:'arsenal-bold';
+    src: url(../fonts/arsenal-bold-webfont.eot);
+    src: url(../fonts/arsenal-bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/arsenal-bold-webfont.woff) format('woff'),
+         url(../fonts/arsenal-bold-webfont.ttf) format('truetype'),
+		url(../fonts/arsenal-bold-webfont.svg#arsenal-bold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'arsenal-bolditalic';
+    src: url(../fonts/arsenal-bolditalic-webfont.eot);
+    src: url(../fonts/arsenal-bolditalic-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/arsenal-bolditalic-webfont.woff) format('woff'),
+         url(../fonts/arsenal-bolditalic-webfont.ttf) format('truetype'),
+		url(../fonts/arsenal-bolditalic-webfont.svg#arsenal-bolditalic) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'arsenal-italic';
+    src: url(../fonts/arsenal-italic-webfont.eot);
+    src: url(../fonts/arsenal-italic-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/arsenal-italic-webfont.woff) format('woff'),
+         url(../fonts/arsenal-italic-webfont.ttf) format('truetype'),
+		url(../fonts/arsenal-italic-webfont.svg#arsenal-italic) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'arsenal-regular';
+    src: url(../fonts/arsenal-regular-webfont.eot);
+    src: url(../fonts/arsenal-regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/arsenal-regular-webfont.woff) format('woff'),
+         url(../fonts/arsenal-regular-webfont.ttf) format('truetype'),
+		url(../fonts/arsenal-regular-webfont.svg#arsenal-regular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'sansitaone';
+    src: url(../fonts/sansitaone-webfont.eot);
+    src: url(../fonts/sansitaone-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/sansitaone-webfont.woff) format('woff'),
+         url(../fonts/sansitaone-webfont.ttf) format('truetype'),
+		url(../fonts/sansitaone-webfont.svg#arsenal-regular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'patuaone-regular';
+    src: url(../fonts/patuaone-regular-webfont.eot);
+    src: url(../fonts/patuaone-regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/patuaone-regular-webfont.woff) format('woff'),
+         url(../fonts/patuaone-regular-webfont.ttf) format('truetype'),
+		url(../fonts/patuaone-regular-webfont.svg#patuaone-regular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'gearedslab';
+    src: url(../fonts/gearedslab-webfont.eot);
+    src: url(../fonts/gearedslab-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/gearedslab-webfont.woff) format('woff'),
+         url(../fonts/gearedslab-webfont.ttf) format('truetype'),
+		url(../fonts/gearedslab-webfont.svg#gearedslab) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+	font-family:'gearedslab-light';
+    src: url(../fonts/gearedslab-light-webfont.eot);
+    src: url(../fonts/gearedslab-light-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/gearedslab-light-webfont.woff) format('woff'),
+         url(../fonts/gearedslab-light-webfont.ttf) format('truetype'),
+		url(../fonts/gearedslab-light-webfont.svg#gearedslab-light) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'gearedslab-extrabold';
+    src: url(../fonts/gearedslab-extrabold-webfont.eot);
+    src: url(../fonts/gearedslab-extrabold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/gearedslab-extrabold-webfont.woff) format('woff'),
+         url(../fonts/gearedslab-extrabold-webfont.ttf) format('truetype'),
+		url(../fonts/gearedslab-extrabold-webfont.svg#gearedslab-extrabold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family:'gearedslab-bold';
+    src: url(../fonts/gearedslab-bold-webfont.eot);
+    src: url(../fonts/gearedslab-bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/gearedslab-bold-webfont.woff) format('woff'),
+         url(../fonts/gearedslab-bold-webfont.ttf) format('truetype'),
+		url(../fonts/gearedslab-bold-webfont.svg#gearedslab-bold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* TABLET STYLES: PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	
+}
+
+/* TABLET STYLES: LANDSCAPE */
+@media only screen and (min-width: 960px) and (max-width: 1024px){
+	
+	body{
+		background-image:url(../images/processdesktop.png);
+		width:5120px;	
+		background-attachment:fixed;
+	}
+	
+	 .clear {
+	clear:both;
+}
+	
+	#coverpage{
+		width:1024px;
+		float:left;
+		
+	}
+	
+		#invisblecover{
+		display:block;
+		height:608px;
+		width:462px;
+		float:left;
+		margin-left:10px;
+		
+	}
+	
+	.closedcover{
+		display:block;
+		background-image:url(../images/bookcover.png);
+		height:647px;
+		width:536px;
+		float:left;
+		margin-top:14px;
+		
+	}
+	
+	#CoverTitle{
+		float:left;
+		background-image:url(../images/Covercircle.png);
+		width:521px;
+		height:548px;
+		margin-left:1px;
+		margin-top:20px;
+	}
+	
+	#DesignP{ 
+	float:left;
+	font-size:30px;
+	color:#eeefe0;
+	font-family:'sansitaone';
+	margin-top:150px;
+	margin-left:130px;
+	}
+	
+	#circleline{
+		width:296px;
+		height:22px;
+		background-image:url(../images/covercircleline.png);
+		float:left;
+		margin-left:105px;
+		margin-top:15px;
+	}
+	
+	
+	.Patua1{
+		float:left;
+		color:#21bfd0;
+		font-family:'patuaone-regular';
+		font-size:50px;
+		width:296px;
+		background-position:center;
+		margin-left:172px;
+		margin-top:10px;
+		letter-spacing:1px;
+		
+		
+	}
+	
+	.Patua{
+		float:left;
+		color:#21bfd0;
+		font-family:'patuaone-regular';
+		font-size:50px;
+		width:296px;
+		background-position:center;
+		margin-left:120px;
+		letter-spacing:1px;
+		
+		
+	}
+	
+	#gidtitle{
+		font-size:24px;
+		font-family:'arsenal-regular';
+		color:#eeefe0;
+		margin-top:10px;
+		float:left;
+		margin-left:120px;
+	}
+	
+	#Page2_3{
+		width:1024px;
+		float:left;
+	}
+	
+	.bookview{
+		height:647px;
+		width:1014px;
+		background-image:url(../images/bookpages.png);
+		float:left;
+		margin-left:10px;
+		margin-right:10px;
+		margin-top:14px;
+	
+	}
+	
+	.artistheading{
+		float:left;
+		margin-top:13px;
+		margin-left:18px;
+		display:block;
+		width:244px;
+		height:232px;
+		background-image:url(../images/bookpgcircle.png);
+	
+	}
+	
+	#circlelineAS{
+		background-image:url(../images/byline.png);
+		width:168px;
+		height:37px;
+		float:left;
+		margin-left:22px;
+		margin-top:7px;
+	}
+	
+	#paragraphcolumn{
+		font-family:'arsenal-regular';
+		font-size:22px;
+		color:#383a3d;
+		line-height:28px;
+		height:390px;
+	}
+	
+	#artistparagraph{
+		margin-left:35px;
+		float:left;
+		margin-top:50px;
+		width:442px;
+		margin-left:48px;
+	}
+	
+	b{
+		font-family:'arsenal-bold';
+		
+	}
+	#artistparagraph2{
+		margin-left:15px;
+		float:right;
+		margin-top:50px;
+		width:442px;
+		margin-right:40px;
+	}
+	
+	#titlespace{
+		margin-top:45px;
+		margin-left:14px;
+	}
+	#titlespace2{
+		margin-top:-10px;
+		margin-left:22px;
+	}
+	
+	#titlespace3{
+		margin-top:55px;
+		margin-left:14px;
+	}
+
+	h1{
+		color:#eeefe0;
+		font-size:36px;
+		font-family:'sansitaone';
+		float:left;
+		margin-left:15px;
+		width:210px;
+	
+	}
+	
+	#elccircleline{
+		background-image:url(../images/elcentrocircleline.png);
+		width:167px;
+		height:18px;
+		margin-left:22px;
+		float:left;
+		margin-top:3px;
+		
+	}
+	
+	#invisbleblock{
+		float:left;
+		width:200px;
+		height:232px;
+		display:block;
+		
+	}
+	
+	#secondary{
+		font-family: 'gearedslab';
+		float:left;
+		font-size:26px;
+		color:#eeefe0;
+		margin-left:62px;
+		margin-top:10px;	
+	}
+	
+	#Page4_5{
+		width:1024px;
+		float:left;
+	}
+	
+	#centroleftpage{
+		display:block;
+		height:608px;
+		width:462px;
+		float:left;
+	}
+	
+	#projectheading{
+		float:left;
+		margin-top:15px;
+		margin-left:25px;
+		width:477px;
+	}
+	
+	#accordiancentro{
+		width:470px;
+		float:left;
+		margin-left:28px;
+		margin-top:20px;
+	}
+	
+	h2{
+		float:left;
+	}
+	
+	.Accordiantitle{
+		font-family:'sansitaone';
+		font-size:28px;
+		color:#565e61;
+		line-height:34px;
+		width:400px;
+		height:36px;
+		margin-bottom:7px;
+		
+	}
+	
+	.arrowdown{
+		background-image:url(../images/arrowdown.png);
+		width:29px;
+		height:29px;
+		float:right;
+		display:block;
+	
+	}
+	
+.content{
+	width:467px;
+	
+}
+
+.contentdescribe{
+	color:#383a3d;
+	font-family:'arsenal-regular';
+	font-size:16px;
+	line-height:19px;
+	margin-bottom:7px;
+}
+	
+	#workimages{
+		float:right;
+		width:490px;
+		margin-right:25px;
+		margin-top:30px;
+	}
+	
+	#centroimaglist{
+		margin-left:20px;
+	
+	}
+	
+	#centro1{
+		background-image:url(../images/centroworldtouch.png);
+		width:153px;
+		height:144px;
+		float:left;
+	}
+	
+	.join{
+		width:108px;
+		float:left;
+		margin-left:6px;
+		margin-right:6px;
+	}
+	
+	#centro2{
+		background-image:url(../images/centrosketch.png);
+		width:108px;
+		height:68px;
+		float:left;
+	}
+	
+		#centro3{
+		background-image:url(../images/centroletter.png);
+		width:108px;
+		height:68px;
+		float:left;
+		margin-top:8px;
+		
+		
+	}
+	
+		#centro4{
+		background-image:url(../images/centroshirt.png);
+		width:76px;
+		height:151px;
+		float:left;
+		margin-bottom:6px;
+	}
+	
+		#centro5{
+		background-image:url(../images/centropeoplelogo.png);
+		width:112px;
+		height:65px;
+		float:left;
+		margin-bottom:6px;
+		margin-left:6px;
+	}
+	
+		#centro6{
+		background-image:url(../images/centropattern.png);
+		width:112px;
+		height:77px;
+		float:left;
+		margin-left:6px;
+		margin-bottom:6px;
+	}
+	
+	#centro7{
+		background-image:url(../images/centrofinallogo.png);
+		width:257px;
+		height:129px;
+		float:left;
+		margin-bottom:6px;
+		
+	}
+	
+		#centro8{
+		background-image:url(../images/centrovibrationcircle.png);
+		width:204px;
+		height:56px;
+		float:left;
+		margin-left:6px;
+		margin-bottom:6px;
+	}
+	
+		#centro9{
+		background-image:url(../images/centrobeforelogo.png);
+		width:204px;
+		height:56px;
+		float:left;
+		margin-left:6px;
+	}
+	
+	#centro10{
+		background-image:url(../images/centrocolordesignbox.png);
+		width:151px;
+		height:104px;
+		float:left;
+		margin-bottom:6px;
+		
+	}
+	
+		#centro11{
+		background-image:url(../images/centrobusinesscard.png);
+		width:97px;
+		height:146px;
+		float:left;
+		margin-left:10px;
+		margin-bottom:6px;
+	}
+	
+	#centro12{
+		background-image:url(../images/centroposter.png);
+		width:195px;
+		height:272px;
+		float:right;
+		margin-left:12px;
+		
+	}
+	
+	#centro13{
+		background-image:url(../images/centropostcard.png);
+		width:107px;
+		height:80px;
+		float:left;
+		margin-bottom:6px;
+		margin-top:-45px;
+		
+	}
+	
+	#centro14{
+		background-image:url(../images/centromoodboard.png);
+		width:139px;
+		height:112px;
+		float:right;
+		margin-left:6px;
+		margin-top:10px;
+	}
+	
+	#centro15{
+		background-image:url(../images/centrostitch.png);
+		width:109px;
+		height:80px;
+		float:left;
+		margin-top:-80px;
+	}
+	
+
+
+	
+	#Page6_7{
+		width:1024px;
+		float:left;
+	}
+	
+	
+	#inspirepgleft{
+		background-image:url(../images/Inspirationbutton.png);
+		width:427px;
+		height:421px;
+		float:left;
+		margin-left:40px;
+		margin-top:120px;
+		
+	}
+	
+	#inspirepgright{
+		float:right;
+		width:530px;
+		height:647px;
+		color:#3333CC;
+		
+	}
+	
+	#buttonspace{
+		float:left;
+		width:530px;
+		height:647pxl
+		
+	}
+	
+	#button1{
+		float:left;
+		width:212px;
+		height:213px;
+		background-image:url(../images/grimmbutton.png);
+		margin-left:50px;
+		margin-top:110px;
+	}
+	
+	#button2{
+		float:left;
+		width:212px;
+		height:213px;
+		background-image:url(../images/greekmythbutton.png);
+		margin-left:20px;
+		margin-top:110px;
+	}
+	
+	#button3{
+		float:left;
+		width:212px;
+		height:213px;
+		background-image:url(../images/alicebutton.png);
+		margin-left:50px;
+		margin-top:20px;
+		
+	}
+	
+	#button4{
+		float:left;
+		width:212px;
+		height:213px;
+		background-image:url(../images/vintagebutton.png);
+		margin-top:20px;
+		margin-left:20px;
+	}
+	
+	#closingpage{
+		width:1024px;
+		float:left;
+	}
+	
+	.closedcoverend{
+		display:block;
+		background-image:url(../images/bookclose.png);
+		height:647px;
+		width:536px;
+		float:left;
+		margin-left:10px;
+		margin-top:14px;
+	}
+	
+	#marque{
+		float:left;
+		margin-top:100px;
+		margin-left:80px;
+		width:380px;
+	}
+	
+	#upperarc{
+		width:342px;
+		height:49px;
+		background-image:url(../images/arcupper.png);
+		float:left;
+		display:block;
+		
+	}
+	
+	#typeone{
+		float:left;
+		font-family:'sansitaone';
+		font-size:40px;
+		color:#162732;
+		margin-top:10px;
+		margin-left:15px;
+		
+	}
+	
+	#typetwo{
+		float:left;
+		font-family:'gearedslab-bold';
+		font-size:45px;
+		color:#565e61;
+		margin-top:10px;
+		margin-left:15px;
+		
+	}
+	#greylineleft{
+		float:left;
+		background-image:url(../images/praticalstripesleft.png);
+		width:82px;
+		height:18px;
+		margin-top:20px;
+		margin-left:3px;
+	}
+	
+	#typethree{
+			float:left;
+		font-family:'sansitaone';
+		font-size:36px;
+		color:#162732;
+		margin-top:10px;
+		
+		
+	}
+	
+	#greylineright{
+		float:left;
+		background-image:url(../images/praticalstripesright.png);
+		width:82px;
+		height:18px;
+		margin-top:20px;
+	}
+	
+	#typefour{
+			float:left;
+		font-family:'gearedslab-extrabold';
+		font-size:24px;
+		color:#565e61;
+		margin-top:10px;
+		margin-left:10px;
+		margin-right:5px;
+		
+	}
+	
+	.dot{
+		float:left;
+		margin-top:15px;
+		background-image:url(../images/quirkydot.png);
+		width:11px;
+		height:11px;
+		margin-left:5px;
+		margin-right:5px;
+		
+	}
+	
+	#typefive{
+		color:#21bfd0;
+		font-family:'arsenal-bold';
+		font-size:28px;
+		float:left;
+		margin-top:10px;
+	}
+	
+	#typesix{
+		float:left;
+		font-family:'sansitaone';
+		font-size:24px;
+		color:#162732;
+		margin-top:10px;
+		margin-left:6px;
+		margin-right:40px;
+		
+	}
+	
+	#typeseven{
+		float:left;
+		font-family:'gearedslab-extrabold';
+		font-size:36px;
+		color:#565e61;
+		margin-top:18px;
+		margin-left:10px;
+		
+	}
+	
+	#typeeight{
+		float:left;
+		font-family:'sansitaone';
+		font-size:40px;
+		color:#162732;
+		margin-top:13px;
+		margin-left:20px;
+	}
+	
+	#typenine{
+		float:left;
+		font-family:'sansitaone';
+		font-size:28px;
+		color:#21bfd0;
+		margin-top:10px;
+		margin-left:-2px;
+		
+	}
+	
+	#typeten{
+		float:left;
+		font-family:'gearedslab-extrabold';
+		font-size:30px;
+		color:#262a2e;
+		margin-top:10px;
+		margin-left:10px;
+	}
+	#typeeleven{
+		color:#565e61;
+		font-family:'arsenal-bold';
+		font-size:28px;
+		float:left;
+		margin-top:10px;
+		margin-left:10px;
+	}
+	
+	#bluecircleline{
+		float:left;
+		margin-top:4px;
+		background-image:url(../images/bluecirclestripe.png);
+		width:380px;
+		height:31px;
+		margin-left:-11px;
+	}
+	
+	#typetwele{
+			float:left;
+		font-family:'sansitaone';
+		font-size:53px;
+		color:#565e61;
+		margin-top:-3px;
+		margin-left:55px;
+		
+	}
+	
+	#lowerarc{
+		width:342px;
+		height:49px;
+		background-image:url(../images/arclower.png);
+		float:left;
+		display:block;
+		
+	}
+	
+	h3{
+		float:left;
+		font-family:'arsenal-italic';
+		color:#939598;
+		font-size:16px;
+		margin-top:100px;
+		margin-left:140px;
+		
+	}
+	
+	
+
+.sliderContainer {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.iosSlider {
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.iosSlider .slider {
+	width: 100%;
+	height: 100%;
+}
+.iosSlider .slider .PAGE {
+	float:left;
+}
+
+#buttonContainer{
+		width:140px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+.next {
+	position:absolute;
+	
+	width: 63px;
+	height: 64px;
+	background:url(../images/arrowright.png) center center;
+	z-index:10;
+}
+
+ .prev {
+	position:absolute;
+	
+	width: 63px;
+	height: 64px;
+	background:url(../images/arrowleft.png) center center;
+	z-index:10;
+	
+}
+
+	
+}
