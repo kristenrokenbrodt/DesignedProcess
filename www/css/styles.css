@@ -151,7 +151,7 @@
 		height:647px;
 		width:536px;
 		float:left;
-		margin-top:14px;
+		margin-top:24px;
 		
 		
 	}
@@ -162,7 +162,7 @@
 		width:521px;
 		height:548px;
 		margin-left:1px;
-		margin-top:20px;
+		margin-top:30px;
 	}
 	
 	#DesignP{ 
@@ -170,7 +170,7 @@
 	font-size:30px;
 	color:#eeefe0;
 	font-family:'sansitaone';
-	margin-top:150px;
+	margin-top:160px;
 	margin-left:130px;
 	}
 	
@@ -234,7 +234,7 @@
 		float:left;
 		margin-left:5px;
 		margin-right:10px;
-		margin-top:14px;
+		margin-top:24px;
 	
 	}
 	
@@ -842,13 +842,13 @@
 .next{
 	background:url(../images/arrowright.png) center center;
 	right:20px;
-	top:580px;
+	top:670px;
 }
 
 .prev{
 	background:url(../images/arrowleft.png) center center;
 	left:20px;
-	top:580px;
+	top:670px;
 }
 	
 	
