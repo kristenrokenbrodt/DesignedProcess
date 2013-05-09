@@ -278,6 +278,15 @@
 		
 		$(".acFade a" ).on('tap', function (event){
 			showObjectOfInterest($(this).attr('rel'));
+		
+			
+			
+			
+		});
+		
+			$(".acFade a" ).click( function (event){
+			showObjectOfInterest($(this).attr('rel'));
+		
 			
 			
 			
@@ -322,6 +331,48 @@
         $(this).find('.el-centro-brand').fadeIn();
 
     });
+	
+	// repeat for click
+	
+	
+	 $('.process-planning').click();
+    $('.acfadeone ').click(function ()
+    {
+        // $(this).next().siblings
+        $('.process-planning').delay(250).fadeTo(1000, 1);
+		$('.designed-process').delay(250).fadeTo(250, .25);
+		$('.bothprocess').delay(250).fadeTo(250, .25);
+		$('.el-centro-brand').delay(250).fadeTo(250, .25);
+        $(this).find('.process-planning').fadeIn();
+		
+		
+		
+    });
+	
+		 $('.designed-process').click();
+    $('.acfadetwo ').click( function ()
+    {
+        // $(this).next().siblings
+        $('.designed-process').delay(250).fadeTo(1000, 1);
+		$('.bothprocess').delay(250).fadeTo(1000, 1);
+		$('.process-planning').delay(250).fadeTo(250, .25);
+		$('.el-centro-brand').delay(250).fadeTo(250, .25);
+        $(this).find('.designed-process').fadeIn();
+
+    });
+	
+			 $('.el-centro-brand').click();
+    $('.acfadethree ').click( function ()
+    {
+        // $(this).next().siblings
+        $('.el-centro-brand').delay(250).fadeTo(1000, 1);
+		$('.bothprocess').delay(250).fadeTo(1000, 1);
+		$('.designed-process').delay(250).fadeTo(250, .25);
+		$('.process-planning').delay(250).fadeTo(250, .25);
+        $(this).find('.el-centro-brand').fadeIn();
+
+    });
+	
 	
 
 	
