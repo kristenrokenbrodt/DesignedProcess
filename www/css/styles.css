@@ -853,7 +853,7 @@
 	
 	
 .swipe {
-	  overflow: hidden;
+  overflow: hidden;
   visibility: hidden;
   position: relative;
  
@@ -880,4 +880,36 @@
 
 
 	
+}
+@media only screen and (min-width: 1025px){
+	body{
+		background-image:url(../images/designdesktopfullscreen.png);
+		width:100%;
+		display:block;
+		margin-left:auto center;
+		margin-right:auto center;
+	
+	}
+	
+	#mySwipe{
+		display:none;
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width: 767px){
+	body{
+		background-image:url(../images/smallerthentablet.png);
+		width:100%;
+		display:block;
+		margin-left:auto center;
+		margin-right:auto center;
+	
+	}
+	
+	#mySwipe{
+		display:none;
+	}
 }

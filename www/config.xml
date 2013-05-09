@@ -2,14 +2,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.kristenrokenbrodt.DesignedProcess"
-        version   = "2.5.0">
-    <name>DesignedProcess</name>
+        version   = "2.0.0">
+    <name>Designed Process</name>
 
     <description>
         The process book of Kristen Rokenbrodt for interviewing purposes.
     </description>
 
-    <author href="http://kristenrokenbrodt.com" email="kristyrye6@hotmail.com">
+    <author href="http://phonegap.com" email="support@phonegap.com">
         kristenrokenbrodt
     </author>
 
