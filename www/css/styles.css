@@ -121,7 +121,7 @@
 	
 	body{
 		background-image:url(../images/processdesktop.png);
-		width:5120px;	
+		width:1024px;	
 		background-attachment:fixed;
 	}
 	
@@ -132,6 +132,7 @@
 	#coverpage{
 		width:1024px;
 		float:left;
+		display:block;
 		
 	}
 	
@@ -151,6 +152,7 @@
 		width:536px;
 		float:left;
 		margin-top:14px;
+		
 		
 	}
 	
@@ -220,6 +222,8 @@
 	
 	#Page2_3{
 		width:1024px;
+	
+		display:block;
 		float:left;
 	}
 	
@@ -335,7 +339,10 @@
 	
 	#Page4_5{
 		width:1024px;
+		
 		float:left;
+		display:block;
+	
 	}
 	
 	#centroleftpage{
@@ -550,7 +557,10 @@
 	
 	#Page6_7{
 		width:1024px;
+		
+		display:block;
 		float:left;
+
 	}
 	
 	
@@ -619,6 +629,7 @@
 	#closingpage{
 		width:1024px;
 		float:left;
+		
 	}
 	
 	.closedcoverend{
@@ -629,6 +640,7 @@
 		float:left;
 		margin-left:10px;
 		margin-top:14px;
+		
 	}
 	
 	#marque{
@@ -819,56 +831,54 @@
 	}
 	
 	
-
-.sliderContainer {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-
-.iosSlider {
-	position: relative;
-	top: 0;
-	left: 0;
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
-}
-
-.iosSlider .slider {
-	width: 100%;
-	height: 100%;
-}
-.iosSlider .slider .PAGE {
-	float:left;
-}
-
-#buttonContainer{
-		width:140px;
-		margin-left:auto;
-		margin-right:auto;
-	}
-
-.next {
+.next, .prev{
 	position:absolute;
-	
-	width: 63px;
-	height: 64px;
+	display:block;
+	width:63px;
+	height:64px;
+	border-style:none;
+}
+
+.next{
 	background:url(../images/arrowright.png) center center;
-	z-index:10;
+	right:10px;
+	top:580px;
 }
 
- .prev {
-	position:absolute;
-	
-	width: 63px;
-	height: 64px;
+.prev{
 	background:url(../images/arrowleft.png) center center;
-	z-index:10;
-	
+	left:10px;
+	top:580px;
 }
+	
+	
+	
+.swipe {
+	  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+ 
+  /*width:1024px;
+  height:647px;
+  position: relative;*/
+
+}
+
+.swipe-wrap {
+	  overflow: hidden;
+  position: relative;
+	/*position:absolute;
+	width:999999px;
+	height:100%;*/
+}
+
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+
 
 	
 }
